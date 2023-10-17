@@ -8,8 +8,16 @@
                 </div>
                 <div class="ms_banner_text">
                     <h1>Ce mois-ci</h1>
-                    <h1 class="ms_color">Nouveaux Projets !</h1>
-                    <p>Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ea incidunt velit nihil ab consectetur modi tenetur quos ad, rerum aliquam quasi dolorum, sunt commodi facilis at doloribus totam? Delectus!<br> Things, The Heartbeat Stops, Walking Promises, Desired Games and many more...</p>
+                    <h1 class="ms_color">Nouveau Projet !</h1>
+                    <p>
+                        <span style="color: white;">Corti </span>
+                        vient de sortir son nouveau projet intitulé
+                        <span style="color: white;"> Nitro </span>
+                        , sortie le 
+                        <span style="color: white;"> 21 Novembre 2023. </span> <br>
+                        Venez découvrir ce nouveau projet musical !<br> 
+                        N'hésitez pas à le suivre et à lui faire des dons si vous aimez son univers !
+                    </p>
                     <div class="ms_banner_btn">
                         <a href="#" class="ms_btn">Ecouter</a>
                         <a href="#" class="ms_btn">File d'attente</a>

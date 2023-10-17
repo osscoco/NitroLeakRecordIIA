@@ -19,6 +19,7 @@
             });
         });
 
+        //Accueil
         $(".ms_nav_accueil").on("click", function() {
 
             $(".ms_nav_item").each(function() {
@@ -31,10 +32,10 @@
             
             $(".ms_nav_accueil").addClass("active");
 
-        
         });
 
-        $(".ms_nav_ecoutes_recentes").on("click", function() {
+        //Services
+        $(".ms_nav_services").on("click", function() {
 
             $(".ms_nav_item").each(function() {
         
@@ -44,11 +45,12 @@
                 }
             });
             
-            $(".ms_nav_ecoutes_recentes").addClass("active");
+            $(".ms_nav_services").addClass("active");
 
         });
 
-        $(".ms_nav_top_15").on("click", function() {
+        //Ecoutées
+        $(".ms_nav_historique").on("click", function() {
 
             $(".ms_nav_item").each(function() {
         
@@ -58,7 +60,22 @@
                 }
             });
             
-            $(".ms_nav_top_15").addClass("active");
+            $(".ms_nav_historique").addClass("active");
+
+        });
+
+        ///////////////ARTISTES
+        $(".ms_nav_top_15_artistes").on("click", function() {
+
+            $(".ms_nav_item").each(function() {
+        
+                if ($(this).hasClass("active")) {
+
+                    $(this).removeClass("active");
+                }
+            });
+            
+            $(".ms_nav_top_15_artistes").addClass("active");
 
         });
 
@@ -76,7 +93,7 @@
 
         });
 
-        $(".ms_nav_albums").on("click", function() {
+        $(".ms_nav_albums_artistes").on("click", function() {
 
             $(".ms_nav_item").each(function() {
         
@@ -86,11 +103,12 @@
                 }
             });
             
-            $(".ms_nav_albums").addClass("active");
+            $(".ms_nav_albums_artistes").addClass("active");
 
         });
 
-        $(".ms_nav_genres").on("click", function() {
+        ///////////////BEATMAKERS
+        $(".ms_nav_top_15_beatmakers").on("click", function() {
 
             $(".ms_nav_item").each(function() {
         
@@ -100,11 +118,11 @@
                 }
             });
             
-            $(".ms_nav_genres").addClass("active");
+            $(".ms_nav_top_15_beatmakers").addClass("active");
 
         });
 
-        $(".ms_nav_nos_services").on("click", function() {
+        $(".ms_nav_beatmakers").on("click", function() {
 
             $(".ms_nav_item").each(function() {
         
@@ -114,10 +132,25 @@
                 }
             });
             
-            $(".ms_nav_nos_services").addClass("active");
+            $(".ms_nav_beatmakers").addClass("active");
 
         });
 
+        $(".ms_nav_packs_beatmakers").on("click", function() {
+
+            $(".ms_nav_item").each(function() {
+        
+                if ($(this).hasClass("active")) {
+
+                    $(this).removeClass("active");
+                }
+            });
+            
+            $(".ms_nav_packs_beatmakers").addClass("active");
+
+        });
+
+        ///////////////UTILISATEUR AUTHENTIFIE
         $(".ms_nav_mes_playlists").on("click", function() {
 
             $(".ms_nav_item").each(function() {
@@ -132,7 +165,7 @@
 
         });
 
-        $(".ms_nav_mes_playlists").on("click", function() {
+        $(".ms_nav_new_playlist").on("click", function() {
 
             $(".ms_nav_item").each(function() {
         
@@ -142,21 +175,7 @@
                 }
             });
             
-            $(".ms_nav_mes_playlists").addClass("active");
-
-        });
-
-        $(".ms_nav_nouvelle_playlist").on("click", function() {
-
-            $(".ms_nav_item").each(function() {
-        
-                if ($(this).hasClass("active")) {
-
-                    $(this).removeClass("active");
-                }
-            });
-            
-            $(".ms_nav_nouvelle_playlist").addClass("active");
+            $(".ms_nav_new_playlist").addClass("active");
 
         });
     });

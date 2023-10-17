@@ -9,7 +9,7 @@
                 </button>
                 <div class="modal-body">
                     <div class="ms_register_img">
-                        <img src="{{ asset('images/login-modal.png') }}" width="368" alt="" class="img-fluid" />
+                        <img src="{{ asset('images/Logo Modaux Auth/logo-modaux-auth.png') }}" width="368" alt="" class="img-fluid" />
                     </div>
                     <form action="{{ route('register') }}" method="POST">
                         @csrf

@@ -5,10 +5,10 @@
     <div class="ms_sidemenu_inner">
         <div class="ms_logo_inner">
             <div class="ms_logo">
-                <a href="/"><img src="{{ asset('images/logo_nlr3120.png') }}" width="78" alt="" class="img-fluid"></a>
+                <a href="/"><img src="{{ asset('images/Logo/logo_nlr3120.png') }}" width="78" alt="" class="img-fluid"></a>
             </div>
             <div class="ms_logo_open">
-                <a href="/"><img src="{{ asset('images/logo_nlr3120x2402.png') }}" width="126" alt="" class="img-fluid"/></a>
+                <a href="/"><img src="{{ asset('images/Logo/logo_nlr3120x2402.png') }}" width="126" alt="" class="img-fluid"/></a>
             </div>
         </div>
         <div class="ms_nav_wrapper">
@@ -22,12 +22,23 @@
                 </span>
                 </a>
                 </li>
-                <li><a href="#top_15_semaine" class="ms_nav_item ms_nav_top_15" title="Top 15">
+                <li><a href="#services" class="ms_nav_item ms_nav_services" title="Services">
+                <span class="nav_icon">
+                    <span class="icon icon_purchased"></span>
+                </span>
+                <span class="nav_text">
+                    services
+                </span>
+                </a>
+                </li>
+            </ul>
+            <ul class="nav_downloads">
+                <li><a href="#top_15_semaine_artistes" class="ms_nav_item ms_nav_top_15_artistes" title="Top 15 Sons">
                 <span class="nav_icon">
                     <span class="icon icon_tracks"></span>
                 </span>
                 <span class="nav_text">
-                    top 15
+                    top 15 sons
                 </span>
                 </a>
                 </li>
@@ -40,7 +51,7 @@
                 </span>
                 </a>
                 </li>
-                <li><a href="#albums" class="ms_nav_item ms_nav_albums" title="Albums">
+                <li><a href="#albums" class="ms_nav_item ms_nav_albums_artistes" title="Albums">
                 <span class="nav_icon">
                     <span class="icon icon_albums"></span>
                 </span>
@@ -49,27 +60,36 @@
                 </span>
                 </a>
                 </li>
-                <li><a href="#genres" class="ms_nav_item ms_nav_genres" title="Genres">
-                <span class="nav_icon">
-                    <span class="icon icon_genres"></span>
-                </span>
-                <span class="nav_text">
-                    genres
-                </span>
-                </a>
-                </li>
             </ul>
             <ul class="nav_downloads">
-                <li><a href="#services" class="ms_nav_item ms_nav_nos_services" title="Nos services">
+                <li><a href="#top_15_semaine_prods" class="ms_nav_item ms_nav_top_15_beatmakers" title="Top 15 Prods">
                 <span class="nav_icon">
-                    <span class="icon icon_purchased"></span>
+                    <span class="icon icon_tracks"></span>
                 </span>
                 <span class="nav_text">
-                    nos services
+                    top 15 prods
                 </span>
                 </a>
                 </li>
-            </ul>
-        </div>
+                <li><a href="#beatmakers" class="ms_nav_item ms_nav_beatmakers" title="Beatmakers">
+                <span class="nav_icon">
+                    <span class="icon icon_artists"></span>
+                </span>
+                <span class="nav_text">
+                    beatmakers
+                </span>
+                </a>
+                </li>
+                <li><a href="#packs" class="ms_nav_item ms_nav_packs_beatmakers" title="Packs">
+                <span class="nav_icon">
+                    <span class="icon icon_albums"></span>
+                </span>
+                <span class="nav_text">
+                    packs
+                </span>
+                </a>
+                </li>
+            </ul>   
+        </div>  
     </div>
 </div>
