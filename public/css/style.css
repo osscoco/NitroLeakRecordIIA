@@ -458,7 +458,7 @@ body.loaded .ms_loader {
 	-ms-transform: scale(1.1);
 }
 .ms_nav_wrapper ul.nav_downloads {
-	margin-top: 40px;
+	margin-top: 10px;
 }
 .ms_nav_wrapper ul.nav_playlist {
 	margin-top: 40px;
@@ -857,6 +857,7 @@ ul.ms_lang_box:after {
 	float: left;
 	padding-top: 135px;
 }
+
 .ms_banner_text .ms_banner_btn .ms_btn {
 	height: 40px;
 	width: 100%;
@@ -1652,7 +1653,7 @@ span.ovrly_text2 {
 	margin-top: 5px;
 }
 h1.footer_title {
-	font-size: 18px;
+	font-size: 15px;
 	text-transform: capitalize;
 	position: relative;
 	padding-bottom: 10px;
