@@ -19,10 +19,7 @@
                             <div class="form-group">
                                 <input type="text" placeholder="Email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}">
                                 @if ($errors->has('email'))
-                                    <span class="text-danger">{{ $errors->first('email') }}</span>
-                                @endif
-                                @if(!empty($messageErrorLogin))
-                                    <span class="text-danger">{{ $messageErrorLogin }}</span>
+                                    <span class="text-danger" style="font-weight: bold; font-size: small;">{{ $errors->first('email') }}</span>
                                 @endif
                                 <span class="form_icon">
                                     <i class="fa_icon form-envelope" aria-hidden="true"></i>
@@ -30,12 +27,14 @@
                             </div>
                             <div class="form-group">
                                 <input type="password" placeholder="Mot de Passe" class="form-control" name="password">
+                                @if ($errors->has('password'))
+                                    <span class="text-danger" style="font-weight: bold; font-size: small;">{{ $errors->first('password') }}</span>
+                                @endif
                                 <span class="form_icon">
                                     <i class="fa_icon form-lock" aria-hidden="true"></i>
                                 </span>
                             </div>
                             <button type="submit" class="save_btn">Se connecter</button>
-                            <!-- <a href="profile.html" class="ms_btn" target="_blank">login now</a> -->
                             <div class="popup_forgot">
                                 <a href="#">Mot de Passe oublié ?</a>
                             </div>

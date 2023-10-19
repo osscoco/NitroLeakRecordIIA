@@ -11,34 +11,33 @@ class Track extends Model
 	protected $table = 'tracks';
 
 	protected $casts = [
-		'typeId' => 'int',
-        'artistId' => 'int',
-        'albumId' => 'int'
+        'artist_id' => 'int',
+        'album_id' => 'int',
+		'created_at' => 'date'
 	];
 
 	protected $fillable = [
 		'label',
 		'imageUrl',
         'duration',
-        'typeId',
-        'artistId',
-        'albumId',
+        'artist_id',
+        'album_id',
         'created_at',
         'updated_at'
 	];
 
-	public function type()
-	{
-		return $this->belongsTo(Type::class);
-	}
-
     public function artist()
 	{
-		return $this->belongsTo(Artist::class);
+		return $this->belongsTo('App\Models\Artist', 'artist_id', 'id');
 	}
 
     public function album()
 	{
-		return $this->belongsTo(Album::class);
+		return $this->belongsTo('App\Models\Album', 'album_id', 'id');
+	}
+
+	public function playlists()
+	{
+		return $this->belongsToMany('App\Models\Playlist');
 	}
 }

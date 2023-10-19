@@ -19,7 +19,7 @@
                             <div class="form-group">
                                 <input type="text" placeholder="Nom" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}">
                                 @if ($errors->has('name'))
-                                    <span class="text-danger">{{ $errors->first('name') }}</span>
+                                    <span class="text-danger" style="font-weight: bold; font-size: small;">{{ $errors->first('name') }}</span>
                                 @endif
                                 <span class="form_icon">
                                     <i class="fa_icon form-user" aria-hidden="true"></i>
@@ -28,7 +28,7 @@
                             <div class="form-group">
                                 <input type="text" placeholder="Email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}">
                                 @if ($errors->has('email'))
-                                    <span class="text-danger">{{ $errors->first('email') }}</span>
+                                    <span class="text-danger" style="font-weight: bold; font-size: small;">{{ $errors->first('email') }}</span>
                                 @endif
                                 <span class="form_icon">
                                     <i class="fa_icon form-envelope" aria-hidden="true"></i>
@@ -41,7 +41,10 @@
                                 </span>
                             </div>
                             <div class="form-group">
-                                <input type="password" placeholder="Confirmation du Mot de Passe" class="form-control" name="confirm_password">
+                                <input type="password" placeholder="Confirmation du Mot de Passe" class="form-control" name="password_confirmation">
+                                @if ($errors->has('password'))
+                                    <span class="text-danger" style="font-weight: bold; font-size: small;">{{ $errors->first('password') }}</span>
+                                @endif
                                 <span class="form_icon">
                                     <i class=" fa_icon form-lock" aria-hidden="true"></i>
                                 </span>

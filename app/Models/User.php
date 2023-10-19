@@ -49,6 +49,11 @@ class User extends Authenticatable
 
     public function role()
 	{
-		return $this->belongsTo(Role::class);
+		return $this->belongsTo('App\Models\Role', 'role_id', 'id');
+	}
+
+    public function playlists()
+	{
+		return $this->hasMany('App\Models\Playlist');
 	}
 }

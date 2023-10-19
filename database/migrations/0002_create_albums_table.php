@@ -15,7 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('label');
             $table->string('imageUrl');
-            $table->double('duration');
+            $table->string('duration');
+            $table->bigInteger('artist_id')->unsigned()->index();
+            $table->foreign('artist_id')->references('id')->on('artists');
             $table->timestamps();
         });
     }

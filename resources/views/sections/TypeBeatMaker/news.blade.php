@@ -10,9 +10,9 @@
                     <h1>Ce mois-ci</h1>
                     <h1 class="ms_color">Nouveau Projet !</h1>
                     <p>
-                        <span style="color: white;">Corti </span>
+                        <span style="color: white;">SynaTracks </span>
                         vient de sortir son nouveau projet intitulé
-                        <span style="color: white;"> Nitro </span>
+                        <span style="color: white;"> Pack Ice </span>
                         , sortie le 
                         <span style="color: white;"> 21 Novembre 2023. </span> <br>
                         Venez découvrir ce nouveau projet musical !<br> 

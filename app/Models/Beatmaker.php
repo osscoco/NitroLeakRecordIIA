@@ -6,18 +6,24 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
-class Type extends Model
+class Beatmaker extends Model
 {
-	protected $table = 'types';
+	protected $table = 'beatmakers';
 
 	protected $fillable = [
 		'label',
+		'imageUrl',
         'created_at',
         'updated_at'
 	];
 
-	public function tracks()
+	public function prods()
 	{
-		return $this->hasMany(Type::class);
+		return $this->hasMany('App\Models\Prod');
+	}
+
+    public function packs()
+	{
+		return $this->hasMany('App\Models\Pack');
 	}
 }
