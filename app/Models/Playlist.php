@@ -13,12 +13,18 @@ class Playlist extends Model
 	protected $fillable = [
 		'label',
         'duration',
+		'user_id',
         'created_at',
         'updated_at'
 	];
 
 	public function tracks()
 	{
-		return $this->hasMany(Track::class);
+		return $this->belongsToMany('App\Models\Track');
+	}
+
+	public function user()
+	{
+		return $this->belongsTo('App\Models\User', 'user_id', 'id');
 	}
 }

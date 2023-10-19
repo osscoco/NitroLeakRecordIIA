@@ -13,7 +13,7 @@
         </div>
         <div class="ms_nav_wrapper">
             <ul>
-                <li><a href="#accueil" class="ms_nav_item ms_nav_accueil active" title="Accueil">
+                <li><a href="#page1" class="ms_nav_item ms_nav_accueil active" title="Accueil">
                 <span class="nav_icon">
                     <span class="icon icon_discover"></span>
                 </span>
@@ -22,7 +22,7 @@
                 </span>
                 </a>
                 </li>
-                <li><a href="#services" class="ms_nav_item ms_nav_services" title="Services">
+                <li><a href="#page2" class="ms_nav_item ms_nav_services" title="Services">
                 <span class="nav_icon">
                     <span class="icon icon_purchased"></span>
                 </span>
@@ -31,7 +31,7 @@
                 </span>
                 </a>
                 </li>
-                <li><a href="#historique" class="ms_nav_item ms_nav_historique" title="Ecoutées">
+                <li><a href="#page3" class="ms_nav_item ms_nav_historique" title="Ecoutées">
                 <span class="nav_icon">
                     <span class="icon icon_tracks"></span>
                 </span>
@@ -42,7 +42,7 @@
                 </li>
             </ul>
             <ul class="nav_downloads">
-                <li><a href="#top_15_semaine_artistes" class="ms_nav_item ms_nav_top_15_artistes" title="Top 15 Sons">
+                <li><a href="#page4" class="ms_nav_item ms_nav_top_15_artistes" title="Top 15 Sons">
                 <span class="nav_icon">
                     <span class="icon icon_tracks"></span>
                 </span>
@@ -51,7 +51,7 @@
                 </span>
                 </a>
                 </li>
-                <li><a href="#artistes" class="ms_nav_item ms_nav_artistes" title="Artistes">
+                <li><a href="#page5" class="ms_nav_item ms_nav_artistes" title="Artistes">
                 <span class="nav_icon">
                     <span class="icon icon_artists"></span>
                 </span>
@@ -60,7 +60,7 @@
                 </span>
                 </a>
                 </li>
-                <li><a href="#albums" class="ms_nav_item ms_nav_albums_artistes" title="Albums">
+                <li><a href="#page6" class="ms_nav_item ms_nav_albums_artistes" title="Albums">
                 <span class="nav_icon">
                     <span class="icon icon_albums"></span>
                 </span>
@@ -71,7 +71,7 @@
                 </li>
             </ul>
             <ul class="nav_downloads">
-                <li><a href="#top_15_semaine_prods" class="ms_nav_item ms_nav_top_15_beatmakers" title="Top 15 Prods">
+                <li><a href="#page7" class="ms_nav_item ms_nav_top_15_beatmakers" title="Top 15 Prods">
                 <span class="nav_icon">
                     <span class="icon icon_tracks"></span>
                 </span>
@@ -80,7 +80,7 @@
                 </span>
                 </a>
                 </li>
-                <li><a href="#beatmakers" class="ms_nav_item ms_nav_beatmakers" title="Beatmakers">
+                <li><a href="#page8" class="ms_nav_item ms_nav_beatmakers" title="Beatmakers">
                 <span class="nav_icon">
                     <span class="icon icon_artists"></span>
                 </span>
@@ -89,7 +89,7 @@
                 </span>
                 </a>
                 </li>
-                <li><a href="#packs" class="ms_nav_item ms_nav_packs_beatmakers" title="Packs">
+                <li><a href="#page9" class="ms_nav_item ms_nav_packs_beatmakers" title="Packs">
                 <span class="nav_icon">
                     <span class="icon icon_albums"></span>
                 </span>
@@ -100,7 +100,7 @@
                 </li>
             </ul>
             <ul class="nav_playlist">
-                <li><a href="#playlists" class="ms_nav_item ms_nav_mes_playlists" title="Mes playlists">
+                <li><a href="#page10" class="ms_nav_item ms_nav_mes_playlists" title="Mes playlists">
                 <span class="nav_icon">
                     <span class="icon icon_fe_playlist"></span>
                 </span>

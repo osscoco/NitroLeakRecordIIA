@@ -1,5 +1,5 @@
 <!---Recently Played Music--->
-<div class="ms_rcnt_slider" id="historique">
+<div class="ms_rcnt_slider" id="page3">
     <div class="ms_heading">
         <h1>Récemment Ecouté</h1>
         <span class="veiw_all"><a href="#">voir plus</a></span>

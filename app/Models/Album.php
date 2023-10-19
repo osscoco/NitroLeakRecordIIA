@@ -14,17 +14,18 @@ class Album extends Model
 		'label',
 		'imageUrl',
         'duration',
+		'artist_id',
         'created_at',
         'updated_at'
 	];
 
 	public function tracks()
 	{
-		return $this->hasMany(Track::class);
+		return $this->hasMany('App\Models\Track');
 	}
 
     public function artist()
 	{
-		return $this->belongsTo(Artist::class);
+		return $this->belongsTo('App\Models\Artist', 'artist_id', 'id');
 	}
 }

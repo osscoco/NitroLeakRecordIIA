@@ -1,5 +1,5 @@
 <!---- Services---->
-<div class="ms_genres_wrapper" id="services" style="margin-top: 3% !important; margin-bottom: 6% !important;">
+<div class="ms_genres_wrapper" id="page2" style="margin-top: 3% !important; margin-bottom: 6% !important;">
     <div class="row">
         <div class="col-lg-12">
             <div class="ms_heading">

@@ -1,5 +1,5 @@
 <!----Featured Albumn Section Start---->
-<div class="ms_fea_album_slider" id="albums">
+<div class="ms_fea_album_slider" id="page6">
     <div class="ms_heading">
         <h1>Albums</h1>
         <span class="veiw_all"><a href="#">view more</a></span>

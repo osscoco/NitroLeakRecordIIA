@@ -4,8 +4,10 @@
 
 @section('content')
 
+<div class="mycont">
+
 <!-- Nouveaux Projets Musique -->
-@include('sections.TypeArtiste.news', ['UserName' => Session::get('UserName')])
+@include('sections.TypeArtiste.news')
 
 <!-- Services -->
 @include('sections.services')
@@ -25,7 +27,7 @@
 <!-- Top 15 Musique -->
 @include('sections.TypeArtiste.top15')
 
-<!-- Artists Musique -->
+<!-- Artistes Musique -->
 @include('sections.TypeArtiste.artists')
 
 <!-- Albums Musique -->
@@ -36,19 +38,22 @@
 @include('sections.types-of-beatmakers')
 <!-- ----------------------------------------------------------------------- -->
 
-<!-- Top 15 Pack -->
+<!-- Top 15 Prod -->
 @include('sections.TypeBeatMaker.top15')
 
-<!-- Artists Musique -->
+<!-- BeatMakers Prod -->
 @include('sections.TypeBeatMaker.beatmakers')
 
-<!-- Albums Musique -->
+<!-- Pack Prod -->
 @include('sections.TypeBeatMaker.packs')
 
 <!-- ------------------------------ DELIMITER ------------------------------ -->
 <!-- types-of-beatmakers -->
 @include('sections.types-of-logo')
 <!-- ----------------------------------------------------------------------- -->
+
+
+</div>
 
 <!----Main div close---->
 @endsection

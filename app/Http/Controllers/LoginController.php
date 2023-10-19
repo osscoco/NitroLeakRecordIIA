@@ -27,13 +27,15 @@ class LoginController extends Controller
             $validateUser = Validator::make($request->all(),
             [
                 'email' => 'required|max:255',
-                'password' => 'required|max:255'
+                'password' => 'required|max:255|min:8'
             ]);
 
             //Vérification des validations
             if($validateUser->fails()){
 
-                return redirect(RouteServiceProvider::HOME)->with('error', $validateUser);
+                return redirect(RouteServiceProvider::HOME)
+                ->with('error', $validateUser->errors());
+                
             }
 
             //Recherche d'un email d'utilisateur (envoyé dans la requête) dans la base de données
@@ -51,13 +53,19 @@ class LoginController extends Controller
                 //Si l'utilisateur n'a pas fournis les bonnes informations de connexion
                 if(!Auth::attempt($requestCredentials)){
 
-                    return redirect(RouteServiceProvider::HOME)->with('error', 'Email ou Mot de Passe incorrect');
+                    return redirect(RouteServiceProvider::HOME)
+                    ->with('error', 'Email ou Mot de Passe incorrect');
                 }
 
                 $request->session()->put('UserSession', true);
+                $request->session()->put('UserId', $user['id']);
                 $request->session()->put('UserName', $user['name']);
+                $request->session()->put('UserEmail', $user['email']);
+                $request->session()->put('UserToken', $user->createToken('NlrToken')->plainTextToken);
 
-                return redirect(RouteServiceProvider::HOME)->with('success', 'Vous êtes connecté');
+                return redirect(RouteServiceProvider::HOME)
+                ->with('alert', 'success')
+                ->with('alert-message', 'Vous êtes connecté');
             }
             else {
 

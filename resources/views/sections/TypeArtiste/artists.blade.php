@@ -1,5 +1,5 @@
 <!---Featured Artists Music--->
-<div class="ms_featured_slider" id="artistes">
+<div class="ms_featured_slider" id="page5">
     <div class="ms_heading">
         <h1>Artistes</h1>
         <span class="veiw_all"><a href="#">voir plus</a></span>

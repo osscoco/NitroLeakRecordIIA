@@ -18,7 +18,8 @@ class RegisterController extends Controller
         $request->validate([
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:'.User::class],
-            'password' => ['required', Rules\Password::defaults()]
+            'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            'password_confirmation' => 'required'
         ]);
 
         $user = User::create([
@@ -31,6 +32,10 @@ class RegisterController extends Controller
 
         Auth::login($user);
 
-        return redirect(RouteServiceProvider::HOME)->with('success', 'Compte créé avec succès');
+        return redirect(RouteServiceProvider::HOME)
+        ->with('alert', 'success')
+        ->with('alert-message', 'Compte créé avec succès')
+        ->with('data', $user)
+        ->with('token', $user->createToken('NlrToken')->plainTextToken);
     }
 }

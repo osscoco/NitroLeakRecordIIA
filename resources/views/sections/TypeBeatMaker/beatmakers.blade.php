@@ -1,7 +1,7 @@
-<!---Featured Artists Music--->
-<div class="ms_featured_slider" id="beatmakers">
+<!---Featured BeatMakers Music--->
+<div class="ms_featured_slider" id="page8">
     <div class="ms_heading">
-        <h1>Artistes</h1>
+        <h1>BeatMakers</h1>
         <span class="veiw_all"><a href="#">voir plus</a></span>
     </div>
     <div class="ms_feature_slider swiper-container">

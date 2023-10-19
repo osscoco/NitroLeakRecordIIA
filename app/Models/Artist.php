@@ -19,11 +19,11 @@ class Artist extends Model
 
 	public function tracks()
 	{
-		return $this->hasMany(Track::class);
+		return $this->hasMany('App\Models\Track');
 	}
 
     public function albums()
 	{
-		return $this->hasMany(Album::class);
+		return $this->hasMany('App\Models\Album');
 	}
 }

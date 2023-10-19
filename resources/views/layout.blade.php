@@ -45,7 +45,8 @@
 
                 <!-- Flashed Message -->
                 @include('shared.flash-messages.flash-message')
-
+            
+                
                 <!-- Main Content -->
                 @yield('content')
 

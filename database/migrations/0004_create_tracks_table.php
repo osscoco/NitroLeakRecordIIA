@@ -15,13 +15,11 @@ return new class extends Migration
             $table->id();
             $table->string('label');
             $table->string('imageUrl');
-            $table->double('duration');
-            $table->unsignedBigInteger('typeId');
-            $table->foreign('typeId')->references('id')->on('types');
-            $table->unsignedBigInteger('artistId');
-            $table->foreign('artistId')->references('id')->on('artists');
-            $table->unsignedBigInteger('albumId');
-            $table->foreign('albumId')->references('id')->on('albums');
+            $table->string('duration');
+            $table->unsignedBigInteger('artist_id');
+            $table->foreign('artist_id')->references('id')->on('artists');
+            $table->unsignedBigInteger('album_id')->nullable();
+            $table->foreign('album_id')->references('id')->on('albums');
             $table->timestamps();
         });
     }
