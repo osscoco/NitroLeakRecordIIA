@@ -9,7 +9,7 @@
             <div class="swiper-slide">
                 <div class="ms_rcnt_box">
                     <div class="ms_rcnt_box_img">
-                        <img src="{{ asset('images/Albums/corti-nitro.png') }}" width="252" alt="">
+                        <img src="{{ asset('images/Type Artiste/Albums/corti-nitro.png') }}" width="252" alt="">
                         <div class="ms_main_overlay">
                             <div class="ms_box_overlay"></div>
                             <div class="ms_more_icon">
@@ -36,7 +36,7 @@
             <div class="swiper-slide">
                 <div class="ms_rcnt_box">
                     <div class="ms_rcnt_box_img">
-                        <img src="{{ asset('images/Albums/kalu-charbon.png') }}" width="252" alt="">
+                        <img src="{{ asset('images/Type Artiste/Albums/kalu-charbon.png') }}" width="252" alt="">
                         <div class="ms_main_overlay">
                             <div class="ms_box_overlay"></div>
                             <div class="ms_more_icon">

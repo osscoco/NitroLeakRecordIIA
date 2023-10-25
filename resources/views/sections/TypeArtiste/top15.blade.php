@@ -7,471 +7,135 @@
                     <h1>top 15 de la semaine</h1>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12 padding_right40">
-                <div class="ms_weekly_box">
-                    <div class="weekly_left">
-                        <span class="w_top_no">
-                            01
-                        </span>
-                        <div class="w_top_song">
-                            <div class="w_tp_song_img">
-                            <img src="{{ asset('images/Top 15 Semaine/1-10-corti-nitro.png') }}" width="50" alt="" class="img-fluid">
-                                <div class="ms_song_overlay">
-                                </div>
-                                <div class="ms_play_icon">
-                                    <img src="{{ asset('images/svg/play.svg') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="w_tp_song_name">
-                                <h3><a href="#">Intro</a></h3>
-                                <p>Nitro (Corti)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="weekly_right">
-                        <span class="w_song_time">2:20</span>
-                        <span class="ms_more_icon" data-other="1">
-                            <img src="{{ asset('images/svg/more.svg') }}" alt="">									
-                        </span>
-                    </div>
-                    <ul class="more_option">
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
-                    </ul>
-                </div>
-                <div class="ms_divider"></div>
-                <div class="ms_weekly_box">
-                    <div class="weekly_left">
-                        <span class="w_top_no">
-                            02
-                        </span>
-                        <div class="w_top_song">
-                            <div class="w_tp_song_img">
-                            <img src="{{ asset('images/Top 15 Semaine/1-10-corti-nitro.png') }}" width="50" alt="" class="img-fluid">
-                                <div class="ms_song_overlay">
-                                </div>
-                                <div class="ms_play_icon">
-                                    <img src="{{ asset('images/svg/play.svg') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="w_tp_song_name">
-                                <h3><a href="#">Cogite</a></h3>
-                                <p>Nitro (Corti)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="weekly_right">
-                        <span class="w_song_time">3:09</span>
-                        <span class="ms_more_icon" data-other="1">
-                            <img src="{{ asset('images/svg/more.svg') }}" alt="">									
-                        </span>
-                    </div>
-                    <ul class="more_option">
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
-                    </ul>
-                </div>
-                <div class="ms_divider"></div>
-                <div class="ms_weekly_box">
-                    <div class="weekly_left">
-                        <span class="w_top_no">
-                            03
-                        </span>
-                        <div class="w_top_song">
-                            <div class="w_tp_song_img">
-                            <img src="{{ asset('images/Top 15 Semaine/1-10-corti-nitro.png') }}" width="50" alt="" class="img-fluid">
-                                <div class="ms_song_overlay">
-                                </div>
-                                <div class="ms_play_icon">
-                                    <img src="{{ asset('images/svg/play.svg') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="w_tp_song_name">
-                                <h3><a href="#">Fly</a></h3>
-                                <p>Nitro (Corti)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="weekly_right">
-                        <span class="w_song_time">3:22</span>
-                        <span class="ms_more_icon" data-other="1">
-                            <img src="{{ asset('images/svg/more.svg') }}" alt="">									
-                        </span>
-                    </div>
-                    <ul class="more_option">
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
-                    </ul>
-                </div>
-                <div class="ms_divider"></div>
-                <div class="ms_weekly_box">
-                    <div class="weekly_left">
-                        <span class="w_top_no">
-                            04
-                        </span>
-                        <div class="w_top_song">
-                            <div class="w_tp_song_img">
-                                <img src="{{ asset('images/Top 15 Semaine/1-10-corti-nitro.png') }}" width="50" alt="" class="img-fluid">
-                                <div class="ms_song_overlay">
-                                </div>
-                                <div class="ms_play_icon">
-                                    <img src="{{ asset('images/svg/play.svg') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="w_tp_song_name">
-                                <h3><a href="#">Nitro</a></h3>
-                                <p>Nitro (Corti)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="weekly_right">
-                        <span class="w_song_time">2:56</span>
-                        <span class="ms_more_icon" data-other="1">
-                            <img src="{{ asset('images/svg/more.svg') }}" alt="">									
-                        </span>
-                    </div>
-                    <ul class="more_option">
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
-                    </ul>
-                </div>
-                <div class="ms_divider"></div>
-                <div class="ms_weekly_box">
-                    <div class="weekly_left">
-                        <span class="w_top_no">
-                            05
-                        </span>
-                        <div class="w_top_song">
-                            <div class="w_tp_song_img">
-                                <img src="{{ asset('images/Top 15 Semaine/1-10-corti-nitro.png') }}" width="50" alt="" class="img-fluid">
-                                <div class="ms_song_overlay">
-                                </div>
-                                <div class="ms_play_icon">
-                                    <img src="{{ asset('images/svg/play.svg') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="w_tp_song_name">
-                                <h3><a href="#">Nitra</a></h3>
-                                <p>Nitro (Corti)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="weekly_right">
-                        <span class="w_song_time">3:20</span>
-                        <span class="ms_more_icon" data-other="1">
-                            <img src="{{ asset('images/svg/more.svg') }}" alt="">									
-                        </span>
-                    </div>
-                    <ul class="more_option">
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12 padding_right40">
-                <div class="ms_weekly_box">
-                    <div class="weekly_left">
-                        <span class="w_top_no">
-                            06
-                        </span>
-                        <div class="w_top_song">
-                            <div class="w_tp_song_img">
-                                <img src="{{ asset('images/Top 15 Semaine/1-10-corti-nitro.png') }}" width="50" alt="" class="img-fluid">
-                                <div class="ms_song_overlay">
-                                </div>
-                                <div class="ms_play_icon">
-                                    <img src="{{ asset('images/svg/play.svg') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="w_tp_song_name">
-                                <h3><a href="#">Rêve</a></h3>
-                                <p>Nitro (Corti)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="weekly_right">
-                        <span class="w_song_time">3:19</span>
-                        <span class="ms_more_icon" data-other="1">
-                            <img src="{{ asset('images/svg/more.svg') }}" alt="">									
-                        </span>
-                    </div>
-                    <ul class="more_option">
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
-                    </ul>
-                </div>
-                <div class="ms_divider"></div>
-                <div class="ms_weekly_box">
-                    <div class="weekly_left">
-                        <span class="w_top_no">
-                            07
-                        </span>
-                        <div class="w_top_song">
-                            <div class="w_tp_song_img">
-                                <img src="{{ asset('images/Top 15 Semaine/1-10-corti-nitro.png') }}" width="50" alt="" class="img-fluid">
-                                <div class="ms_song_overlay">
-                                </div>
-                                <div class="ms_play_icon">
-                                    <img src="{{ asset('images/svg/play.svg') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="w_tp_song_name">
-                                <h3><a href="#">Peace</a></h3>
-                                <p>Nitro (Corti)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="weekly_right">
-                        <span class="w_song_time">4:52</span>
-                        <span class="ms_more_icon" data-other="1">
-                            <img src="{{ asset('images/svg/more.svg') }}" alt="">									
-                        </span>
-                    </div>
-                    <ul class="more_option">
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
-                    </ul>
-                </div>
-                <div class="ms_divider"></div>
-                <div class="ms_weekly_box ms_active_play">
-                    <div class="weekly_left">
-                        <span class="w_top_no">
-                            08
-                        </span>
-                        <div class="w_top_song">
-                            <div class="w_tp_song_img">
-                                <img src="{{ asset('images/Top 15 Semaine/1-10-corti-nitro.png') }}" width="50" alt="" class="img-fluid">
-                                <div class="ms_song_overlay">
-                                </div>
-                                <div class="ms_play_icon">
-                                    <div class="ms_bars">
-                                        <div class="bar"></div>
-                                        <div class="bar"></div>
-                                        <div class="bar"></div>
-                                        <div class="bar"></div>
-                                        <div class="bar"></div>
-                                        <div class="bar"></div>
+            @if (isset($top15Artistes_A))
+                <div class="col-lg-4 col-md-12 padding_right40">
+                    @foreach ($top15Artistes_A as $key => $top15Artiste_A)
+                        <div class="ms_weekly_box">
+                            <div class="weekly_left">
+                                <span class="w_top_no">
+                                    {{ $key + 1 }}
+                                </span>
+                                <div class="w_top_song">
+                                    <div class="w_tp_song_img">
+                                    <img src="{{ asset('images/' . $top15Artiste_A->imageUrl) }}" width="50" alt="" class="img-fluid">
+                                        <div class="ms_song_overlay">
+                                        </div>
+                                        <div class="ms_play_icon">
+                                            <img src="{{ asset('images/svg/play.svg') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="w_tp_song_name">
+                                        <h3><a href="#">{{ $top15Artiste_A->label }}</a></h3>
+                                        <p>{{ $top15Artiste_A->album == null ? 'Single' : $top15Artiste_A->album->label }} ({{ $top15Artiste_A->artist->label }})</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="w_tp_song_name">
-                                <h3><a href="#">La Piste</a></h3>
-                                <p>Nitro (Corti)</p>
+                            <div class="weekly_right">
+                                <span class="w_song_time">{{ $top15Artiste_A->duration }}</span>
+                                <span class="ms_more_icon" data-other="1">
+                                    <img src="{{ asset('images/svg/more.svg') }}" alt="">									
+                                </span>
                             </div>
+                            <ul class="more_option">
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="weekly_right">
-                        <span class="w_song_time">2:46</span>
-                        <span class="ms_more_icon" data-other="1">
-                            <img src="{{ asset('images/svg/more.svg') }}" alt="">									
-                        </span>
-                    </div>
-                    <ul class="more_option">
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
-                    </ul>
+                        @if (!$loop->last)
+                            <div class="ms_divider"></div>
+                        @endif
+                    @endforeach
                 </div>
-                <div class="ms_divider"></div>
-                <div class="ms_weekly_box">
-                    <div class="weekly_left">
-                        <span class="w_top_no">
-                            09
-                        </span>
-                        <div class="w_top_song">
-                            <div class="w_tp_song_img">
-                                <img src="{{ asset('images/Top 15 Semaine/1-10-corti-nitro.png') }}" width="50" alt="" class="img-fluid">
-                                <div class="ms_song_overlay">
-                                </div>
-                                <div class="ms_play_icon">
-                                    <img src="{{ asset('images/svg/play.svg') }}" alt="">
+            @endif
+            @if (isset($top15Artistes_B))
+                <div class="col-lg-4 col-md-12 padding_right40">
+                    @foreach ($top15Artistes_B as $key => $top15Artiste_B)
+                        <div class="ms_weekly_box"> <!-- class="ms_weekly_box ms_active_play" -->
+                            <div class="weekly_left">
+                                <span class="w_top_no">
+                                    {{ $key + 6 }}
+                                </span>
+                                <div class="w_top_song">
+                                    <div class="w_tp_song_img">
+                                        <img src="{{ asset('images/' . $top15Artiste_B->imageUrl) }}" width="50" alt="" class="img-fluid">
+                                        <div class="ms_song_overlay">
+                                        </div>
+                                        <div class="ms_play_icon">
+                                            <img src="{{ asset('images/svg/play.svg') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="w_tp_song_name">
+                                        <h3><a href="#">{{ $top15Artiste_B->label }}</a></h3>
+                                        <p>{{ $top15Artiste_B->album == null ? 'Single' : $top15Artiste_B->album->label }} ({{ $top15Artiste_B->artist->label }})</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="w_tp_song_name">
-                                <h3><a href="#">Ma Ville</a></h3>
-                                <p>Nitro (Corti)</p>
+                            <div class="weekly_right">
+                                <span class="w_song_time">{{ $top15Artiste_B->duration }}</span>
+                                <span class="ms_more_icon" data-other="1">
+                                    <img src="{{ asset('images/svg/more.svg') }}" alt="">									
+                                </span>
                             </div>
+                            <ul class="more_option">
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="weekly_right">
-                        <span class="w_song_time">2:27</span>
-                        <span class="ms_more_icon" data-other="1">
-                            <img src="{{ asset('images/svg/more.svg') }}" alt="">									
-                        </span>
-                    </div>
-                    <ul class="more_option">
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
-                    </ul>
+                        @if (!$loop->last)
+                            <div class="ms_divider"></div>
+                        @endif     
+                    @endforeach                   
                 </div>
-                <div class="ms_divider"></div>
-                <div class="ms_weekly_box">
-                    <div class="weekly_left">
-                        <span class="w_top_no">
-                            10
-                        </span>
-                        <div class="w_top_song">
-                            <div class="w_tp_song_img">
-                                <img src="{{ asset('images/Top 15 Semaine/1-10-corti-nitro.png') }}" width="50" alt="" class="img-fluid">
-                                <div class="ms_song_overlay">
-                                </div>
-                                <div class="ms_play_icon">
-                                    <img src="{{ asset('images/svg/play.svg') }}" alt="">
+            @endif
+            @if (isset($top15Artistes_C))
+                <div class="col-lg-4 col-md-12 padding_right40">
+                    @foreach ($top15Artistes_C as $key => $top15Artiste_C)
+                        <div class="ms_weekly_box"> <!-- class="ms_weekly_box ms_active_play" -->
+                            <div class="weekly_left">
+                                <span class="w_top_no">
+                                    {{ $key + 11 }}
+                                </span>
+                                <div class="w_top_song">
+                                    <div class="w_tp_song_img">
+                                        <img src="{{ asset('images/' . $top15Artiste_C->imageUrl) }}" width="50" alt="" class="img-fluid">
+                                        <div class="ms_song_overlay">
+                                        </div>
+                                        <div class="ms_play_icon">
+                                            <img src="{{ asset('images/svg/play.svg') }}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="w_tp_song_name">
+                                        <h3><a href="#">{{ $top15Artiste_C->label }}</a></h3>
+                                        <p>{{ $top15Artiste_C->album == null ? 'Single' : $top15Artiste_C->album->label }} ({{ $top15Artiste_C->artist->label }})</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="w_tp_song_name">
-                                <h3><a href="#">Transfert d'âme</a></h3>
-                                <p>Nitro (Corti)</p>
+                            <div class="weekly_right">
+                                <span class="w_song_time">{{ $top15Artiste_C->duration }}</span>
+                                <span class="ms_more_icon" data-other="1">
+                                    <img src="{{ asset('images/svg/more.svg') }}" alt="">									
+                                </span>
                             </div>
+                            <ul class="more_option">
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
+                                <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="weekly_right">
-                        <span class="w_song_time">4:54</span>
-                        <span class="ms_more_icon" data-other="1">
-                            <img src="{{ asset('images/svg/more.svg') }}" alt="">									
-                        </span>
-                    </div>
-                    <ul class="more_option">
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
-                    </ul>
+                        @if (!$loop->last)
+                            <div class="ms_divider"></div>
+                        @endif     
+                    @endforeach                   
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-12">
-                <div class="ms_weekly_box">
-                    <div class="weekly_left">
-                        <span class="w_top_no">
-                            11
-                        </span>
-                        <div class="w_top_song">
-                            <div class="w_tp_song_img">
-                                <img src="{{ asset('images/Top 15 Semaine/11-corti-nggz-soir-de-lune.png') }}" width="50" alt="" class="img-fluid">
-                                <div class="ms_song_overlay">
-                                </div>
-                                <div class="ms_play_icon">
-                                    <img src="{{ asset('images/svg/play.svg') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="w_tp_song_name">
-                                <h3><a href="#">Soir de lune</a></h3>
-                                <p>Single (Corti Ft. NGGZ)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="weekly_right">
-                        <span class="w_song_time">3:21</span>
-                        <span class="ms_more_icon" data-other="1">
-                            <img src="{{ asset('images/svg/more.svg') }}" alt="">									
-                        </span>
-                    </div>
-                    <ul class="more_option">
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
-                    </ul>
-                </div>
-                <div class="ms_divider"></div>
-                <div class="ms_weekly_box">
-                    <div class="weekly_left">
-                        <span class="w_top_no">
-                            12
-                        </span>
-                        <div class="w_top_song">
-                            <div class="w_tp_song_img">
-                                <img src="{{ asset('images/Top 15 Semaine/12-corti-preambule.png') }}" width="50" alt="" class="img-fluid">
-                                <div class="ms_song_overlay">
-                                </div>
-                                <div class="ms_play_icon">
-                                    <img src="{{ asset('images/svg/play.svg') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="w_tp_song_name">
-                                <h3><a href="#">Préambule</a></h3>
-                                <p>Single (Corti)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="weekly_right">
-                        <span class="w_song_time">2:04</span>
-                        <span class="ms_more_icon" data-other="1">
-                            <img src="{{ asset('images/svg/more.svg') }}" alt="">									
-                        </span>
-                    </div>
-                    <ul class="more_option">
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
-                    </ul>
-                </div>
-                <div class="ms_divider"></div>
-                <div class="ms_weekly_box">
-                    <div class="weekly_left">
-                        <span class="w_top_no">
-                            13
-                        </span>
-                        <div class="w_top_song">
-                            <div class="w_tp_song_img">
-                                <img src="{{ asset('images/Top 15 Semaine/13-corti-nggz-loin.png') }}" width="50" alt="" class="img-fluid">
-                                <div class="ms_song_overlay">
-                                </div>
-                                <div class="ms_play_icon">
-                                    <img src="{{ asset('images/svg/play.svg') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="w_tp_song_name">
-                                <h3><a href="#">Loin</a></h3>
-                                <p>Single (Corti Ft. NGGZ)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="weekly_right">
-                        <span class="w_song_time">3:28</span>
-                        <span class="ms_more_icon" data-other="1">
-                            <img src="{{ asset('images/svg/more.svg') }}" alt="">									
-                        </span>
-                    </div>
-                    <ul class="more_option">
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Favory</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>File d'Attente</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Télécharger</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Playlist</a></li>
-                        <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Partager</a></li>
-                    </ul>
-                </div>
-            </div>
+            @endif
         </div>
     </div>
 </div>

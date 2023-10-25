@@ -13,6 +13,7 @@ class Track extends Model
 	protected $casts = [
         'artist_id' => 'int',
         'album_id' => 'int',
+		'countListening' => 'int',
 		'created_at' => 'date'
 	];
 
@@ -20,6 +21,7 @@ class Track extends Model
 		'label',
 		'imageUrl',
         'duration',
+		'countListening',
         'artist_id',
         'album_id',
         'created_at',
