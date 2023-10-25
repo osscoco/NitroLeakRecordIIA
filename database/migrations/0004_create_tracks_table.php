@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('label');
             $table->string('imageUrl');
             $table->string('duration');
+            $table->integer('countListening')->default(0);
             $table->unsignedBigInteger('artist_id');
             $table->foreign('artist_id')->references('id')->on('artists');
             $table->unsignedBigInteger('album_id')->nullable();

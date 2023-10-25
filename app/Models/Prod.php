@@ -12,13 +12,15 @@ class Prod extends Model
 
 	protected $casts = [
         'beatmaker_id' => 'int',
-        'pack_id' => 'int'
+        'pack_id' => 'int',
+		'countListening' => 'int'
 	];
 
 	protected $fillable = [
 		'label',
 		'imageUrl',
         'duration',
+		'countListening',
         'beatmaker_id',
         'pack_id',
         'created_at',

@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('label');
             $table->string('imageUrl');
             $table->string('duration');
+            $table->integer('countListening')->default(0);
             $table->unsignedBigInteger('beatmaker_id');
             $table->foreign('beatmaker_id')->references('id')->on('beatmakers');
             $table->unsignedBigInteger('pack_id')->nullable();

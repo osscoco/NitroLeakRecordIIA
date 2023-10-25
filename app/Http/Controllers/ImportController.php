@@ -24,6 +24,7 @@ use App\Models\Track;
 use App\Models\User;
 use Illuminate\Support\Facades\Schema;
 use App\Providers\RouteServiceProvider;
+use Carbon\Carbon;
 
 class ImportController extends Controller
 {
@@ -132,7 +133,8 @@ class ImportController extends Controller
                 "label" => "Charbon",
                 "imageUrl" => 'Type Artiste/Albums/kalu-charbon.png',
                 "duration" => "31:00",
-                "artist_id" => $artist_idKalu
+                "artist_id" => $artist_idKalu,
+                "created_at" => Carbon::now()->addMonths(2)
             )      
         );
 
@@ -335,10 +337,6 @@ class ImportController extends Controller
         $artist_idCorti = $artistCorti->id;
         $albumNitro = Album::where('label', 'Nitro')->first();
         $album_idNitro = $albumNitro->id;
-        $artistKalu = Artist::where('label', 'Kalu')->first();
-        $artist_idKalu = $artistKalu->id;
-        $albumCharbon = Album::where('label', 'Charbon')->first();
-        $album_idCharbon = $albumCharbon->id;
         $tracks = array(
             array(
                 "label" => "Intro",
@@ -419,24 +417,25 @@ class ImportController extends Controller
             ),
             array(
                 "label" => "Soir de Lune",
-                "imageUrl" => 'Type Artiste/Albums/corti-nitro.png',
+                "imageUrl" => 'Type Artiste/Singles/corti-nggz-soir-de-lune.png',
                 "duration" => "3:09",
                 "artist_id" => $artist_idCorti,
                 "album_id" => NULL
             ),
             array(
                 "label" => "Loin",
-                "imageUrl" => 'Type Artiste/Albums/corti-nitro.png',
+                "imageUrl" => 'Type Artiste/Singles/corti-nggz-loin.png',
                 "duration" => "3:09",
                 "artist_id" => $artist_idCorti,
                 "album_id" => NULL
             ),
             array(
                 "label" => "Préambule",
-                "imageUrl" => 'Type Artiste/Albums/corti-nitro.png',
+                "imageUrl" => 'Type Artiste/Singles/corti-preambule.png',
                 "duration" => "3:09",
                 "artist_id" => $artist_idCorti,
-                "album_id" => NULL
+                "album_id" => NULL,
+                "created_at" => Carbon::now()->addMonth()
             )   
         );
 
