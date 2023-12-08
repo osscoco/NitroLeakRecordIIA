@@ -38,7 +38,7 @@ class HomeController extends Controller
         Carbon::setLocale('fr');
         $newProject->created_at->diffForHumans();
         
-        setlocale(LC_TIME, 'French');
+        setlocale(LC_TIME, 'French.utf8','fra'); 
         $dateProjectRecently = $newProject->created_at->formatLocalized('%d %B %Y');
 
         //TOP15Artistes

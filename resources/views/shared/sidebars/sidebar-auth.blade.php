@@ -33,7 +33,7 @@
                 </li>
                 <li><a href="#page3" class="ms_nav_item ms_nav_historique" title="Ecoutées">
                 <span class="nav_icon">
-                    <span class="icon icon_tracks"></span>
+                    <span class="icon icon_music"></span>
                 </span>
                 <span class="nav_text">
                     ecoutées

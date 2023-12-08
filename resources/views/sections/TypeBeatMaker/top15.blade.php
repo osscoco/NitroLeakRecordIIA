@@ -1,5 +1,5 @@
 <!---Weekly Top 15--->
-<div class="ms_weekly_wrapper" id="page4">
+<div class="ms_weekly_wrapper" id="page7">
     <div class="ms_weekly_inner">
         <div class="row">
             <div class="col-lg-12">
